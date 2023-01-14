@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Aquad</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="hud">
+	<div class="hud__score">
+		<div class="score-lbl"></div>
+		<div class="cube-count-lbl"></div>
+	</div>
+	<div class="pause-btn">
+		<div></div>
+	</div>
+	<div class="slowmo">
+		<div class="slowmo__bar"></div>
+	</div>
+</div>
+
+
+<div class="menus">
+	<div class="menu menu--main">
+		<h1>AQUAD</h1>
+		<button type="button" class="play-normal-btn">JOGAR</button>
+		<button type="button" class="play-casual-btn">MODO TREINO</button>
+		<div class="credits">Jogo por <a href="https://pedrocode.vercel.app">O Pedro</a></div>
+	</div>
+	<div class="menu menu--pause">
+		<h1>Pausar</h1>
+		<button type="button" class="resume-btn">CONTINUAR</button>
+		<button type="button" class="menu-btn--pause">MENU</button>
+	</div>
+	<div class="menu menu--score">
+		<h1>Game Over</h1>
+		<h2>SUA PONTUAÇÃO:</h2>
+		<div class="final-score-lbl"></div>
+		<div class="high-score-lbl"></div>
+		<button type="button" class="play-again-btn">JOGAR</button>
+		<button type="button" class="menu-btn--score">MENU</button>
+	</div>
+</div>
+<script src="scripts.js"></script>
+
+<!-- Conteúdo -->
+</body>
+</html>
